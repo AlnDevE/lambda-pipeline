@@ -12,6 +12,6 @@ jobs:
       
     deploy:
         name: Deploy teste
-        uses: AlnDevE/reusable-workflow-lambda-python/.github/workflows/ci.yml@master
+        uses: AlnDevE/reusable-workflow-lambda-python/.github/workflows/cd.yml@master
         secrets: inherit
 
