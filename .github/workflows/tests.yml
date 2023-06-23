@@ -10,5 +10,8 @@ jobs:
         with:
             runs-on: 'ubuntu-latest'
       
-        
+    deploy:
+        name: Deploy teste
+        uses: AlnDevE/reusable-workflow-lambda-python/.github/workflows/ci.yml@master
+        secrets: inherit
 
