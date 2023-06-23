@@ -6,7 +6,7 @@ on:
 jobs:
     test:
         name: Testes de python
-        uses: AlnDevE/reusable-workflow-lambda-python@master/.github/workflows/ci.yml@v1
+        uses: AlnDevE/reusable-workflow-lambda-python/.github/workflows/ci.yml@master
         with:
             runs-on: 'ubuntu-latest'
       
