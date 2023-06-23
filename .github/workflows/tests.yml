@@ -12,7 +12,10 @@ jobs:
         - name: Setup de pytohn
           uses: actions/setup-python@v3
           with:
-            python-version: 3.8 
+            python-version: 3.8
+        
+        - name: Installing Dependencies
+          run: pip install pytest
 
         - name: Run test
           run: python -m pytest /app
