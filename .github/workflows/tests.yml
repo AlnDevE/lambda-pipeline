@@ -10,10 +10,10 @@ jobs:
         with:
             runs-on: 'ubuntu-latest'
       
-    # deploy:
-    #     name: Deploy teste
-    #     uses: AlnDevE/reusable-workflow-lambda-python/.github/workflows/cd.yml@master
-    #     secrets: 
-    #         ACCESS_KEY: ${{secrets.ACCESS_KEY}}
-    #         SECRET_KEY: ${{secrets.SECRET_KEY}} 
+    deploy:
+        name: Deploy teste
+        uses: AlnDevE/reusable-workflow-lambda-python/.github/workflows/cd.yml@master
+        secrets: 
+            ACCESS_KEY: ${{secrets.ACCESS_KEY}}
+            SECRET_KEY: ${{secrets.SECRET_KEY}} 
 
