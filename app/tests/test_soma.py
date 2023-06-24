@@ -1,5 +1,6 @@
 from src.soma import soma
 
+
 def test_soma():
     num1 = 4
     num2 = 7
