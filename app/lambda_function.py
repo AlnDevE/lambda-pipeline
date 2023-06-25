@@ -1,5 +1,2 @@
-import json
-
-
 def lambda_handler(event, context):
-    return json.loads(event)
+    return event["body"]
