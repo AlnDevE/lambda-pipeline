@@ -13,6 +13,7 @@ jobs:
     deploy:
         name: Deploy teste
         uses: AlnDevE/reusable-workflow-lambda-python/.github/workflows/cd.yml@master
+        permissions: read-all
         with:
             runs-on: ubuntu-latest
             function-name: soma
